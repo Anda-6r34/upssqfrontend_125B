@@ -1,0 +1,30 @@
+li {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+a:link {
+    color: black;
+}
+
+/* a:visited {
+    background-color: transparent;
+    border-bottom: 2px solid black;
+} */
+
+a:hover {
+    background-color: brown;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+a:active {
+    text-decoration: underline;
+}

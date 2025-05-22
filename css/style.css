@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+}
+
+.tags {
+    width: 2rem;
+    height: 3px;
+    display: block;
+    background-color: #000000;
+    position: absolute;
+    right: 1rem;
+}
+
+.tags::before {
+    content: "";
+    width: 2rem;
+    height: 3px;
+    display: block;
+    background-color: #000000;
+    position: relative;
+    top: 6px;
+}
+
+.tags::after {
+    content: "";
+    width: 2rem;
+    height: 3px;
+    display: block;
+    background-color: #000000;
+    position: relative;
+    top: 9px;
+}
